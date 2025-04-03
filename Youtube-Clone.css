@@ -1,0 +1,277 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    cursor: pointer;
+}
+#checker{
+    display: none;
+}
+#checkicon{
+    border-radius: 50%;
+    padding: 12px;
+    margin:9px 30px 0px 22px;
+    font-size: 20px;
+}
+#iconsidebar{
+    border-radius: 10px;
+}
+#sidebaricon{
+    margin: 30px 22px 0px 30px;
+    font-size: 20px;
+}
+#siconlabel1{
+    margin:0px 22px 15px 25px ;
+    font-size: 12px;
+}
+#siconlabel2{
+    margin:0px 20px 15px 22px ;
+    font-size: 12px;
+}
+#siconlabel3{
+    margin:0px 5px 15px 5px;
+    font-size: 12px;
+}
+#siconlabel4{
+    margin:0px 30px 10px 30px;
+    font-size: 12px;
+}
+.hidside{
+    width: 240px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0px;
+    z-index: -1;
+    overflow: scroll;
+    transition: ease-in-out;
+}
+.containt{
+    background-color:rgb(0, 0, 0);
+    overflow: scroll;
+    flex:1;
+}
+.up{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 220px;
+}
+#iconhome{
+    margin: 70px 30px 0px 30px;
+    font-size: 18px;
+}
+#labelside{
+    font-size: 15px;
+}
+#icons{
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+#iconsidegame{
+    margin: 15px 30px 0px 30px;
+    font-size: 18px;
+}
+#iconside{
+    margin: 8px 35px 0px 30px;
+    font-size: 18px;
+}
+.nav{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    cursor: pointer;
+}
+#search{
+    all:unset;
+    width:520px;
+}
+#searchdiv{
+    height: 33px;
+    width: 570px;
+    margin: 15px 0 0 120px;
+    border:1.5px solid rgb(46, 45, 45);
+    border-right: none;
+    border-radius: 40px 40px 40px 40px;
+    padding-left:10px ;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor:text;
+}
+#search2{
+    height: 33px;
+    width: 50px;
+    border-radius: 0 40px 40px 0;
+    border:1px solid rgb(120, 115, 115);
+    border-bottom: 0px;
+    border-top: 0px;
+}
+#form{
+    display: flex;
+    flex:1;
+    position: relative;
+}
+#vid{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+#mic{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    margin-right:200px;
+}
+#bell{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+#button{
+    height: 20px;
+    margin-top: 80px;
+    display: flex;
+}
+#profile{
+    display: none;
+}
+#profilelabel{
+    background-color: purple; 
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%; 
+    margin:20px 5px 0 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+}
+#pro{
+    width:2.5rem;
+    height:2.5rem;
+    background-color: purple;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px ;
+
+}
+#info{
+    width:290px;
+    height: 100vh;
+    position: absolute;
+    right: 80px;
+    background-color: rgb(55, 51, 51);
+    z-index: -1;
+    border-radius: 15px;
+    overflow: scroll;
+}
+#infospace{
+    background-color: rgb(55, 51, 51);
+    height: 90px;
+    border-radius: 15px;
+}
+#infotop{
+    background-color: rgb(55, 51, 51);
+    height: 100px;
+    width:273px;
+    display: flex;
+    position: fixed;
+    border-radius: 15px 15px 0px 0px;
+}
+#proname{
+    background-color: rgb(55, 51, 51);
+    margin-top: 20px;
+    line-height: 20px;
+    height: 80px;
+}
+#proid{
+    background-color: rgb(55, 51, 51);
+    font-size:15px;
+}
+#channel{
+    background-color: rgb(55, 51, 51);
+    font-size:15px;
+    color: rgb(22, 161, 230);
+}
+#infodiv{
+    background-color: rgb(55, 51, 51);
+    display:flex;
+}
+#infologo{
+    background-color: rgb(55, 51, 51);
+    font-size: 20px;
+    margin:15px;
+}
+#infolabel{
+    background-color: rgb(55, 51, 51);
+    line-height: 50px;
+}
+#videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+#icons:hover{
+    background-color: rgb(33, 32, 32);
+}
+#icons:hover #iconside{
+    background-color: rgb(33, 32, 32);
+}
+#icons:hover #labelside{
+    background-color: rgb(33, 32, 32);
+}
+#icons:hover #iconhome{
+    background-color: rgb(33, 32, 32);
+}
+.icon:hover{
+    background-color: rgb(33, 32, 32);
+} 
+.icon:hover #sidebaricon{
+    background-color: rgb(33, 32, 32);
+}
+.icon:hover #siconlabel1{
+    background-color: rgb(33, 32, 32);
+}
+.icon:hover #siconlabel2{
+    background-color: rgb(33, 32, 32);
+}
+.icon:hover #siconlabel3{
+    background-color: rgb(33, 32, 32);
+}
+.icon:hover #siconlabel4{
+    background-color: rgb(33, 32, 32);
+}
+#checkicon:hover{
+    background-color: rgb(33, 32, 32);
+}
+#infodiv:hover{
+    background-color: rgb(74, 73, 73);
+}
+#infodiv:hover #infologo{
+    background-color: rgb(74, 73, 73);
+}
+#infodiv:hover #infolabel{
+    background-color: rgb(74, 73, 73);
+}
