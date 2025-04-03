@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://clipart-library.com/images_k/youtube-transparent-png/youtube-transparent-png-15.png" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="youtubestyle.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="checkicdiv"><input type="checkbox" id="checker" onclick="check()">
+            <label for="checker" id="checklabel"><i class="fa-solid fa-bars" id="checkicon" ></i></label></div>
+            <div class="othericonside">
+                <div class="icon" id="iconsidebar">
+                    <i class="fa-solid fa-house" id="sidebaricon"></i>
+                    <p id="siconlabel1">Home</p>
+                </div>
+                <div class="icon" id="iconsidebar">
+                    <i class="fa-solid fa-bolt" id="sidebaricon"></i>
+                    <p id="siconlabel2">Shorts</p>
+                </div>
+                <div class="icon" id="iconsidebar">
+                    <i class="fa-solid fa-folder-open" id="sidebaricon"></i>
+                    <p id="siconlabel3" >Subscription</p>
+                </div>
+                <div class="icon" id="iconsidebar">
+                    <i class="fa-solid fa-folder" id="sidebaricon"></i>
+                    <p id="siconlabel4">You</p>
+                </div>
+            </div>
+        </div>
+        <div class="hidside" id="hidside">
+            <div class="up">
+                <label for="checker" style="margin-right: 0px;"><i class="fa-solid fa-bars" id="checkicon" style="margin-right: 17px;"></i></label>
+                <img src="https://clipart-library.com/images_k/youtube-transparent-png/youtube-transparent-png-15.png" width="25px" height="25px" style="margin-top: 15px;margin-right: 3px; ">
+                <h1 style="margin-top: 15px; font-size: 20px;">Youtube<sup style="font-weight: 200;font-size: 10px;">IN</sup></h1>
+            </div>
+            
+            <div class="icons" id="icons">
+                <i class="fa-solid fa-house" id="iconhome"></i>
+                <label for="iconhome" id="labelside">Home</label>
+            </div>
+            <div class="icons" id="icons">
+                <i class="fa-solid fa-bolt" id="iconside"></i>
+                <label for="iconside" id="labelside">Shorts</label>
+            </div>
+            <div class="icons" id="icons">
+                <i class="fa-solid fa-folder-open" id="iconside"></i>
+                <label for="iconside" id="labelside">Subscriptions</label>
+            </div><br><hr><br>
+            <div class="icons">
+                <h3 style="color: white; margin-left: 20px;font-size: 18px;">You &nbsp;&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"></i></h3><br>
+            </div>
+            <div class="icons" id="icons">
+                <i class="fa-solid fa-clock-rotate-left" id="iconside"></i>
+                <label for="iconside" id="labelside">History</label>
+            </div>
+            <div class="icons" id="icons">
+                <i class="fa-solid fa-sliders" id="iconside"></i>
+                <label for="iconside" id="labelside">Playlist</label>
+            </div>
+            <div class="icons" id="icons">
+                <i class="fa-regular fa-clock" id="iconside"></i>
+                <label for="iconside" id="labelside">Watch Later</label>
+            </div>
+            <div class="icons" id="icons">
+                <i class="fa-regular fa-thumbs-up" id="iconside"></i>
+                <label for="iconside" id="labelside">Liked Videos</label>
+            </div><br><hr><br>
+            <div class="icons"><h3 style="color: white; margin-left: 20px;">Explore &nbsp;&nbsp;&nbsp;</h3></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-fire" id="iconside"></i><label for="iconside" id="labelside">Trending</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-bag-shopping" id="iconside"></i><label for="iconside" id="labelside">Shopping</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-music" id="iconside"></i><label for="iconside" id="labelside">Music</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-gamepad" id="iconsidegame"></i><label for="iconsidegame" id="labelside">Gaming</label></div>
+            <div class="icons" id="icons"><i class="fa-regular fa-newspaper" id="iconside"></i><label for="iconside" id="labelside">News</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-trophy" id="iconside"></i><label for="iconside" id="labelside">Sport</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-lightbulb" id="iconside"></i><label for="iconside" id="labelside">Courses</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-podcast" id="iconside"></i><label for="iconside" id="labelside">Podcasts</label></div>
+            <br><hr><br>
+            <div class="icons" id="icons"><i class="fa-solid fa-gear" id="iconside"></i><label for="iconside" id="labelside">Settings</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-flag" id="iconside"></i><label for="iconside" id="labelside">Report history</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-circle-question" id="iconside"></i><label for="iconside" id="labelside">Help</label></div>
+            <div class="icons" id="icons"><i class="fa-solid fa-circle-exclamation" id="iconside"></i><label for="iconside" id="labelside">Send feedback</label></div><br><hr><br>
+            <p style="color:white;margin-left: 8px;">About Press Copyright<br>Contact us Creator Advertise Developers<br><br>Terms Privacy Policy & Safety<br>How Youtube works<br>Test new features</p>
+        
+        </div>
+        <div class="containt">
+            <div class="nav">
+                <img src="https://clipart-library.com/images_k/youtube-transparent-png/youtube-transparent-png-15.png" width="25px" height="25px" style="margin-top: 15px;margin-right: 3px;flex-shrink: 0;position: relative;">
+                <h1 style="margin-top: 15px; font-size: 20px;flex-shrink: 0;position: relative;">Youtube<sup style="font-weight: 200;font-size: 10px;">IN</sup></h1>
+                <form action="https://www.youtube.com/results?" id="form">
+                    <div id="searchdiv">
+                        <div><input type="text" placeholder="Search" name="search_query" id="search"></div>
+                        <div ><button type="submit" style="background-color: black;" id="search2"><i class="fa-solid fa-magnifying-glass" style="color: white;margin:2px 5px 0 0; background-color: black; font-size: 20px;"></i></button></div>
+                    </div>
+                </form>
+                <i class="fa-solid fa-microphone" id="mic" ></i>
+                <i class="fa-solid fa-video" id="vid"></i>
+                <i class="fa-solid fa-bell" id="bell"></i>
+                <input type="checkbox" id="profile" onclick="infopop()">
+                <label for="profile" id="profilelabel">U</label>
+            </div>
+            <div id="videos">
+                <iframe width="360" height="215" style="margin: 80px 15px 15px 15px;" src="https://www.youtube.com/embed/-DzowlcaUmE?si=UydVp8Ca7RLSU6Rf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin: 80px 15px 15px 15px;" src="https://www.youtube.com/embed/ZT2o8iDCk6o?si=h8VoTXxXmiY6T4_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin: 80px 15px 15px 15px;" src="https://www.youtube.com/embed/9_ftWKch6vI?si=UW8vwh9cgc4UT2_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin:15px;" src="https://www.youtube.com/embed/Dxu7GKtdbnA?si=GLcDgFKz4oVIOw9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin:15px;" src="https://www.youtube.com/embed/RjM3SjUTfE4?si=h82QoI59pRKpD8hQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin:15px;" src="https://www.youtube.com/embed/9TJYWh0adfk?si=36rU6nq7KB6roatc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin:15px;" src="https://www.youtube.com/embed/VXnlt8qChPQ?si=PBT6Wfhm34h0c_jG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin:15px;" src="https://www.youtube.com/embed/vf-cxgUXcMk?si=CJCC5IsZXHTFNdmL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="360" height="215" style="margin:15px;" src="https://www.youtube.com/embed/i_FktdKVXDc?si=9KjQnrgAmD4hsP0v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="info" id="info">
+            <div id="infotop">
+                <div id="pro" align="left">U</div>
+                <p id="proname">ONLY FOR YOU<br><span id="proid">onlyforyou@gmail.com</span><br><br><span id="channel">Create a channel</span></p>
+            </div>
+            <br>
+            <hr>
+            <div id="infospace"></div>
+            <div class="restinfo" id="restinfo">
+                <hr>
+                <div id="infodiv"><i class="fa-brands fa-google" id="infologo"> </i><label for="infologo" id="infolabel">Google account</label><br></div>
+                <div id="infodiv"><i class="fa-solid fa-address-card" id="infologo"></i> <label for="infologo" id="infolabel">Switch account</label><br><i class="fa-solid fa-greater-than" style="font-size: 12px;margin-left: 85px;" id="infolabel"></i></div></i>
+                <div id="infodiv"><i class="fa-solid fa-arrow-right-from-bracket" id="infologo"></i> <label for="infologo" id="infolabel">Sign out</label><br></div>
+                <hr>
+                <div id="infodiv"><i class="fa-solid fa-bullseye" id="infologo"></i> <label for="infologo" id="infolabel">YouTube Studio</label><br></div>
+                <div id="infodiv"><i class="fa-solid fa-dollar-sign" id="infologo"></i> <label for="infologo" id="infolabel">Purchases and memberships</label><br></div>
+                <hr>
+                <div id="infodiv"><i class="fa-solid fa-circle-user" id="infologo"></i> <label for="infologo" id="infolabel">Your data in YouTube</label><br></div>
+                <div id="infodiv"><i class="fa-regular fa-moon" id="infologo"></i> <label for="infologo" id="infolabel">Appearance:Dark Mode</label><i class="fa-solid fa-greater-than" style="font-size: 12px;margin-left: 35px;" id="infolabel"></i><br></div>
+                <div id="infodiv"><i class="fa-solid fa-language" id="infologo"></i> <label for="infologo" id="infolabel">Language:British English</label><i class="fa-solid fa-greater-than" style="font-size: 12px;margin-left: 17px;" id="infolabel"></i><br></div>
+                <div id="infodiv"><i class="fa-solid fa-shield" id="infologo"></i> <label for="infologo" id="infolabel">Restricted Mode:Off</label><i class="fa-solid fa-greater-than" style="font-size: 12px;margin-left: 54px;" id="infolabel"></i><br></div>
+                <div id="infodiv"><i class="fa-solid fa-globe" id="infologo"></i> <label for="infologo" id="infolabel">Location: India</label><i class="fa-solid fa-greater-than" style="font-size: 12px;margin-left: 92px;" id="infolabel"></i><br></div>
+                <div id="infodiv"><i class="fa-solid fa-keyboard" id="infologo"></i> <label for="infologo" id="infolabel">Keyboard Shortcut</label><br></div>
+                <hr>
+                <div id="infodiv"><i class="fa-solid fa-gear" id="infologo"></i> <label for="infologo" id="infolabel">Settings</label><br></div>
+                <hr>
+                <div id="infodiv"><i class="fa-solid fa-question" id="infologo"></i> <label for="infologo" id="infolabel">Help</label><br></div>
+                <div id="infodiv"><i class="fa-solid fa-exclamation" id="infologo"></i> <label for="infologo" id="infolabel">Send Feedback</label><br></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="youtubescript.js"></script>
+</body>
